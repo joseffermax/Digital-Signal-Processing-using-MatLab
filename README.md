@@ -28,18 +28,45 @@ Cada capítulo abordado está documentado com:
 
 ### **Capítulo 4: A Transformada-z**
 A transformada-z é uma ferramenta matemática fundamental na análise e no projeto de sistemas de processamento de sinais digitais. Ela é a versão discreta da transformada de Laplace e é usada para analisar sistemas lineares invariantes no tempo (LTI) em termos de suas respostas em frequência.
+
 #### **Definição da Transformada-z**
 A transformada-z de uma sequência discreta x[n] é definida como:
-![Transformada Z]
+
+<img src="https://github.com/user-attachments/assets/f9923331-77cd-410e-be62-6c01b266d003" alt="Transformada Z" width="400"/>
 
 onde 𝑧 é um número complexo.
 
-- [Notebook/Colab](https://colab.research.google.com/drive/1NCA26Z3aq-EJQRg97OBtEXdSoACWIlLz?authuser=1#scrollTo=exrLZc-g0Fda)  
-- [Vídeos](https://www.youtube.com/watch?v=AxmIQVIJnIw&list=PL1QVe7NlYiKuVpDBFFDNqgLJeSjR9YUoQ&index=1)  
+#### **Propriedades Importantes**
+- **Linearidade** A transformada-z é linear, ou seja, a transformada de uma soma de sequências é a soma das transformadas.
+- **Deslocamento no Tempo** O deslocamento de uma sequência no tempo resulta em uma multiplicação por uma potência de 𝑧 na transformada-z.
+- **Convolução** A convolução no domínio do tempo corresponde à multiplicação no domínio z.
+
+#### **Região de Convergência (ROC)**
+A ROC é a região no plano complexo onde a série da transformada-z converge. A ROC é crucial para determinar a estabilidade e a causalidade de um sistema.
+
+#### **Aplicações**
+A transformada-z é usada para:
+- **Análise de estabilidade de sistemas digitais.**
+- **Projeto de filtros digitais.**
+- **Análise de resposta em frequência de sistemas.**
+
+#### **Simulações**
+- [Notebook/Colab](https://colab.research.google.com/drive/1C2Pg7fEl0sfAQV2pucQ3SaOTSwIJtksj?authuser=1)  
+- [Vídeos]()  
 - [Simulações Complementares]()  
 
 ### **Capítulo 5: Transformada Discreta de Fourier**
-<strong>Resumo:</strong> A Transformada Discreta de Fourier (DFT) é uma técnica utilizada para analisar sinais no domínio da frequência. Este capítulo aborda a implementação da DFT, suas propriedades, e a relação com a Fast Fourier Transform (FFT). A DFT é essencial em muitas áreas do processamento de sinais, como compressão e filtragem.
+A Transformada Discreta de Fourier (DFT) é uma ferramenta essencial no processamento de sinais digitais, permitindo a análise de sinais em termos de suas componentes de frequência. A DFT converte uma sequência finita de valores no domínio do tempo em uma sequência finita de valores no domínio da frequência.
+
+#### **Definição da DFT**
+A DFT de uma sequência 𝑥[𝑛] de comprimento 𝑁 é definida como:
+
+<img src="https://github.com/user-attachments/assets/f9923331-77cd-410e-be62-6c01b266d003" alt="Transformada Z" width="400"/>
+
+onde 𝑧 é um número complexo.
+
+
+
 - [Notebook/Colab](#)  
 - [Vídeos](#)  
 - [Simulações Complementares](#)  
