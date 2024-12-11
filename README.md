@@ -27,7 +27,13 @@ Cada capítulo abordado está documentado com:
 ## 📖 Capítulos Abordados
 
 ### **Capítulo 4: A Transformada-z**
-<strong>Resumo:</strong> A Transformada-z é uma ferramenta fundamental na análise de sistemas discretos, especialmente no estudo de estabilidade e resposta em frequência. Ela permite representar sistemas lineares discretos de forma análoga à transformada de Laplace, mas no domínio z. Este capítulo explora como derivar funções de transferência e analisar sistemas com a Transformada-z.
+A transformada-z é uma ferramenta matemática fundamental na análise e no projeto de sistemas de processamento de sinais digitais. Ela é a versão discreta da transformada de Laplace e é usada para analisar sistemas lineares invariantes no tempo (LTI) em termos de suas respostas em frequência.
+#### **Definição da Transformada-z**
+A transformada-z de uma sequência discreta x[n] é definida como:
+![Transformada Z]
+
+onde 𝑧 é um número complexo.
+
 - [Notebook/Colab](https://colab.research.google.com/drive/1NCA26Z3aq-EJQRg97OBtEXdSoACWIlLz?authuser=1#scrollTo=exrLZc-g0Fda)  
 - [Vídeos](https://www.youtube.com/watch?v=AxmIQVIJnIw&list=PL1QVe7NlYiKuVpDBFFDNqgLJeSjR9YUoQ&index=1)  
 - [Simulações Complementares]()  
