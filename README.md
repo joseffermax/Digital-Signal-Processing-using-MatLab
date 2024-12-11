@@ -17,10 +17,10 @@ Este repositório contém a atividade prática da disciplina de <strong>Processa
 O objetivo deste projeto é aplicar conceitos práticos da disciplina, utilizando Python, Octave ou MATLAB para simulações computacionais, e organizá-los em uma estrutura clara e acessível no GitHub.  
 
 Cada capítulo abordado está documentado com:  
-- **Resumo teórico**  
-- **Simulações computacionais** (disponíveis no Google Colab)  
-- **Links para vídeos explicativos**  
-- **Simulações complementares disponíveis na web**  
+- **Resumo teórico**  📑
+- **Simulações computacionais** (disponíveis no Google Colab)  💻
+- **Links para vídeos explicativos**  🎥
+- **Simulações complementares disponíveis na web**  🌐
 
 ---
 
@@ -32,7 +32,7 @@ A transformada-z é uma ferramenta matemática fundamental na análise e no proj
 #### **Definição da Transformada-z**
 A transformada-z de uma sequência discreta x[n] é definida como:
 
-<img src="https://github.com/user-attachments/assets/f9923331-77cd-410e-be62-6c01b266d003" alt="Transformada Z" width="400"/>
+<img src="https://github.com/user-attachments/assets/de2535be-07b5-40af-abfb-75711d890811" alt="Transformada Z" width="400"/>
 
 onde 𝑧 é um número complexo.
 
@@ -51,9 +51,7 @@ A transformada-z é usada para:
 - **Análise de resposta em frequência de sistemas.**
 
 #### **Simulações**
-- [Notebook/Colab](https://colab.research.google.com/drive/1C2Pg7fEl0sfAQV2pucQ3SaOTSwIJtksj?authuser=1)  
-- [Vídeos]()  
-- [Simulações Complementares]()  
+- [[Notebook/Colab](https://colab.research.google.com/drive/1C2Pg7fEl0sfAQV2pucQ3SaOTSwIJtksj?usp=sharing)] 💻 [[Vídeos]()] 🎥 [[Simulações Complementares]()] 🌐 
 
 ### **Capítulo 5: Transformada Discreta de Fourier**
 A Transformada Discreta de Fourier (DFT) é uma ferramenta essencial no processamento de sinais digitais, permitindo a análise de sinais em termos de suas componentes de frequência. A DFT converte uma sequência finita de valores no domínio do tempo em uma sequência finita de valores no domínio da frequência.
@@ -77,9 +75,7 @@ A DFT é usada para:
 - **Compressão de dados.**
 
 #### **Simulações**
-- [Notebook/Colab](https://colab.research.google.com/drive/17RDxRvNG7IgRYzkEQQYruRYTPVf42hKu?authuser=1)  
-- [Vídeos](#)  
-- [Simulações Complementares](#)  
+- [[Notebook/Colab](https://colab.research.google.com/drive/17RDxRvNG7IgRYzkEQQYruRYTPVf42hKu?usp=sharing)] 💻 [[Vídeos](#)] 🎥 [[Simulações Complementares](#)] 🌐 
 
 ### **Capítulo 6: Implementação de Filtros Discretos no Tempo**
 A implementação de filtros discretos no tempo é uma parte crucial do processamento de sinais digitais. Os filtros podem ser classificados em duas categorias principais: Filtros de Resposta ao Impulso Finito (FIR) e Filtros de Resposta ao Impulso Infinito (IIR).
@@ -90,9 +86,8 @@ Os filtros FIR têm uma resposta ao impulso que é finita, ou seja, eles se torn
 #### **Filtros IIR**
 Os filtros IIR têm uma resposta ao impulso que é infinita, ou seja, eles nunca se tornam exatamente zero. Eles podem ser mais eficientes em termos de computação do que os filtros FIR, mas podem ser instáveis e não têm uma resposta de fase linear.
 
-- [Notebook/Colab](https://colab.research.google.com/drive/1eRfn1JFt_jMCb9VpbWGFbfkQipA7Owgi?authuser=1)  
-- [Vídeos](#)  
-- [Simulações Complementares](#)  
+#### **Simulações**
+- [[Notebook/Colab](https://colab.research.google.com/drive/1eRfn1JFt_jMCb9VpbWGFbfkQipA7Owgi?usp=sharing)] 💻 [[Vídeos](#)] 🎥 [[Simulações Complementares](#)] 🌐 
 
 ### **Capítulo 7: Projeto de Filtros FIR**
 Os filtros FIR (Finite Impulse Response) são amplamente utilizados no processamento de sinais digitais devido à sua estabilidade e resposta de fase linear. O projeto de filtros FIR envolve a determinação dos coeficientes do filtro que atendem a uma especificação de resposta em frequência desejada.
@@ -107,9 +102,8 @@ Existem vários métodos para projetar filtros FIR, incluindo:
 - **Estabilidade:** Os filtros FIR são sempre estáveis, pois não possuem pólos fora do círculo unitário.
 - **Resposta de Fase Linear:** A resposta de fase linear é importante em aplicações onde a distorção de fase deve ser minimizada.
 
-- [Notebook/Colab](https://colab.research.google.com/drive/1fkzO7i-x5V9fKQln7qUZORM-YB1a2Nh-?authuser=1)  
-- [Vídeos](#)  
-- [Simulações Complementares](#)  
+#### **Simulações**
+- [[Notebook/Colab](https://colab.research.google.com/drive/1fkzO7i-x5V9fKQln7qUZORM-YB1a2Nh-?usp=sharing)] 💻 [[Vídeos](#)] 🎥 [[Simulações Complementares](#)] 🌐
 
 ### **Capítulo 8: Projeto de Filtros IIR**
 Os filtros IIR (Infinite Impulse Response) são amplamente utilizados no processamento de sinais digitais devido à sua eficiência computacional. Eles são projetados para ter uma resposta ao impulso infinita, o que significa que a saída do filtro depende não apenas das entradas atuais e passadas, mas também das saídas passadas.
@@ -124,9 +118,8 @@ Existem vários métodos para projetar filtros IIR, incluindo:
 - **Eficiência Computacional:* Os filtros IIR geralmente requerem menos coeficientes do que os filtros FIR para atingir uma resposta em frequência semelhante.
 - **Estabilidade:** A estabilidade dos filtros IIR depende da localização dos pólos no plano z. Filtros IIR podem ser instáveis se os pólos estiverem fora do círculo unitário.
 
-- [Notebook/Colab](https://colab.research.google.com/drive/1OxzesridnigUd0nwvpIN-TmkHkUN5Us5?usp=sharing)  
-- [Vídeos](#)  
-- [Simulações Complementares](#)  
+#### **Simulações**
+- [[Notebook/Colab](https://colab.research.google.com/drive/1OxzesridnigUd0nwvpIN-TmkHkUN5Us5?usp=sharing)] 💻 [[Vídeos](#)] 🎥 [[Simulações Complementares](#)]  🌐
 
 ### **Capítulo 12: Aplicações em Comunicações**
 O processamento digital de sinais (DSP) desempenha um papel crucial em várias aplicações de comunicações. Este capítulo aborda como as técnicas de DSP são aplicadas em sistemas de comunicação para melhorar a eficiência, a qualidade e a confiabilidade da transmissão de dados.
@@ -145,25 +138,32 @@ Os sistemas de comunicação utilizam técnicas de detecção e correção de er
 #### **Filtragem e Equalização**
 A filtragem e a equalização são usadas para mitigar os efeitos de ruído e distorção no canal de comunicação. Os filtros digitais podem ser projetados para remover interferências e melhorar a qualidade do sinal recebido.
 
-- [Notebook/Colab](https://colab.research.google.com/drive/16ymEKGfB1UXYzaMJ3kv3L0oAO4KHz7es?usp=sharing)  
-- [Vídeos](#)  
-- [Simulações Complementares](#)  
+#### **Simulações**
+- [[Notebook/Colab](https://colab.research.google.com/drive/16ymEKGfB1UXYzaMJ3kv3L0oAO4KHz7es?usp=sharing)] 💻  [[Vídeos](#)] 🎥 [[Simulações Complementares](#)]  🌐
 
 ## 🛠️ Ferramentas Utilizadas
 
-- **Python**: Bibliotecas principais utilizadas incluem `numpy`, `scipy`, `matplotlib`, e `control`.  
-- **Google Colab**: Para execução interativa dos códigos e compartilhamento.  
-- **Octave/Matlab**: Alternativa para validação de simulações.  
-- **Recursos da Web**: Links para simulações externas e vídeos complementares.  
+- **Python**: Bibliotecas principais utilizadas incluem `numpy`, `scipy`, `matplotlib`, e `control`.  🐍
+- **Google Colab**: Para execução interativa dos códigos e compartilhamento.  ☁️
+- **Octave/Matlab**: Alternativa para validação de simulações.  💻
+- **Recursos da Web**: Links para simulações externas e vídeos complementares.  🌐
 
 ---
 
-## 🚀 Como Utilizar
+<h2>🤝 Contribuição 🤝</h2>
 
-1. Clone este repositório:  
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Contribuições são bem-vindas! Se você tiver sugestões, correções de bugs ou novas funcionalidades, fique à vontade para abrir uma issue ou enviar um pull request.
+
+<h2>📜 Licença 📜</h2>
+
+<p>Este projeto está licenciado sob a MIT License.</p>
+
 <h2>📘 Orientação 📘</h2>
 <p>
   <p>Este projeto foi desenvolvido sob a orientação do professor <strong>Moacy Pereira da Silva</strong> para a disciplina de <strong>Processamento Digital de Sinais</strong></p>
 </p>
+
+<h2>✉️ Contato ✉️</h2>
+Se você tiver alguma dúvida ou quiser saber mais sobre o projeto, sinta-se à vontade para entrar em contato através do meu perfil no GitHub ou mande uma mensagem para o seguinte e-mail: <strong>joseffermax1472@gmail.com</strong>.
+
+<h2 align="center">🔍 Mergulhe no Mundo da Transformada-z e Descubra Suas Aplicações! 🚀</h2>
