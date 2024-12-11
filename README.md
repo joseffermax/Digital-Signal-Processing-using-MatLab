@@ -37,9 +37,9 @@ A transformada-z de uma sequência discreta x[n] é definida como:
 onde 𝑧 é um número complexo.
 
 #### **Propriedades Importantes**
-- **Linearidade** A transformada-z é linear, ou seja, a transformada de uma soma de sequências é a soma das transformadas.
-- **Deslocamento no Tempo** O deslocamento de uma sequência no tempo resulta em uma multiplicação por uma potência de 𝑧 na transformada-z.
-- **Convolução** A convolução no domínio do tempo corresponde à multiplicação no domínio z.
+- **Linearidade:** A transformada-z é linear, ou seja, a transformada de uma soma de sequências é a soma das transformadas.
+- **Deslocamento no Tempo:** O deslocamento de uma sequência no tempo resulta em uma multiplicação por uma potência de 𝑧 na transformada-z.
+- **Convolução:** A convolução no domínio do tempo corresponde à multiplicação no domínio z.
 
 #### **Região de Convergência (ROC)**
 A ROC é a região no plano complexo onde a série da transformada-z converge. A ROC é crucial para determinar a estabilidade e a causalidade de um sistema.
@@ -61,41 +61,93 @@ A Transformada Discreta de Fourier (DFT) é uma ferramenta essencial no processa
 #### **Definição da DFT**
 A DFT de uma sequência 𝑥[𝑛] de comprimento 𝑁 é definida como:
 
-<img src="https://github.com/user-attachments/assets/f9923331-77cd-410e-be62-6c01b266d003" alt="Transformada Z" width="400"/>
+<img src="https://github.com/user-attachments/assets/314c124d-e0e1-4408-b5a6-5d4301d91f3d" alt="Transformada Z" width="400"/>
 
-onde 𝑧 é um número complexo.
+onde 𝑘 = 0, 1, 2, …, 𝑁 − 1.
 
+#### **Propriedades Importantes**
+- **Periodicidade:** A DFT é periódica com período 𝑁.
+- **Simetria:** Para sequências reais, a DFT possui simetria conjugada.
+- **Linearidade:** A DFT é linear, ou seja, a DFT de uma soma de sequências é a soma das DFTs.
 
+#### **Aplicações**
+A DFT é usada para:
+- **Análise espectral de sinais.**
+- **Filtragem de sinais no domínio da frequência.**
+- **Compressão de dados.**
 
-- [Notebook/Colab](#)  
+#### **Simulações**
+- [Notebook/Colab](https://colab.research.google.com/drive/17RDxRvNG7IgRYzkEQQYruRYTPVf42hKu?authuser=1)  
 - [Vídeos](#)  
 - [Simulações Complementares](#)  
 
 ### **Capítulo 6: Implementação de Filtros Discretos no Tempo**
-<strong>Resumo:</strong> Filtros discretos no tempo são usados para modificar sinais digitais. Este capítulo discute a implementação de filtros no domínio do tempo, abordando tanto os filtros FIR (Finite Impulse Response) quanto os IIR (Infinite Impulse Response). O foco é a implementação prática de filtros usando simulações computacionais.
-- [Notebook/Colab](#)  
+A implementação de filtros discretos no tempo é uma parte crucial do processamento de sinais digitais. Os filtros podem ser classificados em duas categorias principais: Filtros de Resposta ao Impulso Finito (FIR) e Filtros de Resposta ao Impulso Infinito (IIR).
+
+#### **Filtros FIR**
+Os filtros FIR têm uma resposta ao impulso que é finita, ou seja, eles se tornam zero após um número finito de amostras. Eles são sempre estáveis e têm uma resposta de fase linear, o que os torna ideais para muitas aplicações.
+
+#### **Filtros IIR**
+Os filtros IIR têm uma resposta ao impulso que é infinita, ou seja, eles nunca se tornam exatamente zero. Eles podem ser mais eficientes em termos de computação do que os filtros FIR, mas podem ser instáveis e não têm uma resposta de fase linear.
+
+- [Notebook/Colab](https://colab.research.google.com/drive/1eRfn1JFt_jMCb9VpbWGFbfkQipA7Owgi?authuser=1)  
 - [Vídeos](#)  
 - [Simulações Complementares](#)  
 
 ### **Capítulo 7: Projeto de Filtros FIR**
-<strong>Resumo:</strong> Filtros FIR são amplamente utilizados devido à sua estabilidade e linearidade de fase. Neste capítulo, será abordado o processo de projeto de filtros FIR, desde o design até a implementação computacional, utilizando técnicas de janelas e otimização.
-- [Notebook/Colab](#)  
+Os filtros FIR (Finite Impulse Response) são amplamente utilizados no processamento de sinais digitais devido à sua estabilidade e resposta de fase linear. O projeto de filtros FIR envolve a determinação dos coeficientes do filtro que atendem a uma especificação de resposta em frequência desejada.
+
+#### **Métodos de Projeto de Filtros FIR**
+Existem vários métodos para projetar filtros FIR, incluindo:
+- **Método da Janela:** Envolve a multiplicação da resposta ao impulso ideal por uma janela de tempo, como a janela de Hamming ou a janela de Blackman.
+- **Aproximação de Chebyshev:** Minimiza o erro máximo entre a resposta em frequência do filtro projetado e a resposta ideal.
+- **Método dos Mínimos Quadrados:** Minimiza o erro médio quadrático entre a resposta em frequência do filtro projetado e a resposta ideal.
+
+#### **Propriedades dos Filtros FIR**
+- **Estabilidade:** Os filtros FIR são sempre estáveis, pois não possuem pólos fora do círculo unitário.
+- **Resposta de Fase Linear:** A resposta de fase linear é importante em aplicações onde a distorção de fase deve ser minimizada.
+
+- [Notebook/Colab](https://colab.research.google.com/drive/1fkzO7i-x5V9fKQln7qUZORM-YB1a2Nh-?authuser=1)  
 - [Vídeos](#)  
 - [Simulações Complementares](#)  
 
 ### **Capítulo 8: Projeto de Filtros IIR**
-<strong>Resumo:</strong> Filtros IIR são eficientes em termos de recursos computacionais, mas podem ser mais complexos devido à sua resposta em frequência. O capítulo discute a abordagem para projetar filtros IIR, considerando as vantagens e desafios da implementação e a análise de estabilidade.
-- [Notebook/Colab](#)  
+Os filtros IIR (Infinite Impulse Response) são amplamente utilizados no processamento de sinais digitais devido à sua eficiência computacional. Eles são projetados para ter uma resposta ao impulso infinita, o que significa que a saída do filtro depende não apenas das entradas atuais e passadas, mas também das saídas passadas.
+
+#### **Métodos de Projeto de Filtros FIR**
+Existem vários métodos para projetar filtros IIR, incluindo:
+- **Transformação Bilinear:** Converte um filtro analógico em um filtro digital, preservando a estabilidade e a resposta em frequência.
+- **Método de Amostragem de Impulso:** Converte a resposta ao impulso de um filtro analógico em um filtro digital.
+- **Método de Aproximação de Chebyshev:** Minimiza o erro máximo entre a resposta em frequência do filtro projetado e a resposta ideal.
+
+#### **Propriedades dos Filtros IIR**
+- **Eficiência Computacional:* Os filtros IIR geralmente requerem menos coeficientes do que os filtros FIR para atingir uma resposta em frequência semelhante.
+- **Estabilidade:** A estabilidade dos filtros IIR depende da localização dos pólos no plano z. Filtros IIR podem ser instáveis se os pólos estiverem fora do círculo unitário.
+
+- [Notebook/Colab](https://colab.research.google.com/drive/1OxzesridnigUd0nwvpIN-TmkHkUN5Us5?usp=sharing)  
 - [Vídeos](#)  
 - [Simulações Complementares](#)  
 
 ### **Capítulo 12: Aplicações em Comunicações**
-<strong>Resumo:</strong> O processamento de sinais desempenha um papel crucial nas comunicações modernas. Este capítulo explora como as técnicas de processamento digital de sinais são aplicadas em sistemas de comunicação, como modulação, demodulação e codificação, com ênfase em técnicas de filtragem e análise espectral.
-- [Notebook/Colab](#)  
+O processamento digital de sinais (DSP) desempenha um papel crucial em várias aplicações de comunicações. Este capítulo aborda como as técnicas de DSP são aplicadas em sistemas de comunicação para melhorar a eficiência, a qualidade e a confiabilidade da transmissão de dados.
+
+#### **Modulação Digital**
+A modulação digital é o processo de converter dados digitais em sinais analógicos para transmissão. Existem vários esquemas de modulação digital, incluindo:
+- **Modulação por Deslocamento de Fase (PSK):** Onde a fase do sinal portador é alterada de acordo com os dados digitais.
+- **Modulação por Deslocamento de Frequência (FSK):** Onde a frequência do sinal portador é alterada de acordo com os dados digitais.
+- **Modulação por Amplitude em Quadratura (QAM):** Combina modulação de amplitude e fase para transmitir mais bits por símbolo.
+
+#### **Detecção e Correção de Erros**
+Os sistemas de comunicação utilizam técnicas de detecção e correção de erros para garantir a integridade dos dados transmitidos. Alguns métodos comuns incluem:
+- **Códigos de Detecção de Erros:** Como os códigos de paridade e os códigos de redundância cíclica (CRC).
+- **Códigos de Correção de Erros:** Como os códigos de Hamming e os códigos convolucionais.
+
+#### **Filtragem e Equalização**
+A filtragem e a equalização são usadas para mitigar os efeitos de ruído e distorção no canal de comunicação. Os filtros digitais podem ser projetados para remover interferências e melhorar a qualidade do sinal recebido.
+
+- [Notebook/Colab](https://colab.research.google.com/drive/16ymEKGfB1UXYzaMJ3kv3L0oAO4KHz7es?usp=sharing)  
 - [Vídeos](#)  
 - [Simulações Complementares](#)  
-
----
 
 ## 🛠️ Ferramentas Utilizadas
 
