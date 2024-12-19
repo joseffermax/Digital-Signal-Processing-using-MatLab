@@ -12,7 +12,7 @@ Este repositório contém a atividade prática da disciplina de <strong>Processa
 
 ---
 
-## 📋 Estrutura do Projeto
+## 📋 Estrutura do Projeto 📋
 
 O objetivo deste projeto é aplicar conceitos práticos da disciplina, utilizando Python, Octave ou MATLAB para simulações computacionais, e organizá-los em uma estrutura clara e acessível no GitHub.  
 
@@ -24,9 +24,9 @@ Cada capítulo abordado está documentado com:
 
 ---
 
-## 📖 Capítulos Abordados
+## 📖 Capítulos Abordados 📖
 
-### **Capítulo 4: A Transformada-z**
+### **Capítulo 4: A Transformada-z** 📐
 A transformada-z é uma ferramenta matemática fundamental na análise e no projeto de sistemas de processamento de sinais digitais. Ela é a versão discreta da transformada de Laplace e é usada para analisar sistemas lineares invariantes no tempo (LTI) em termos de suas respostas em frequência.
 
 #### **Definição da Transformada-z**
@@ -51,9 +51,9 @@ A transformada-z é usada para:
 - **Análise de resposta em frequência de sistemas.**
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/1C2Pg7fEl0sfAQV2pucQ3SaOTSwIJtksj?usp=sharing)] 💻 [[Vídeos]()] 🎥 [[Simulações Complementares]()] 🌐 
+- [[Notebook/Colab](https://colab.research.google.com/drive/1C2Pg7fEl0sfAQV2pucQ3SaOTSwIJtksj?usp=sharing)] 💻 [[Vídeos](https://www.bing.com/videos/riverview/relatedvideo?&q=Capítulo+4%3a+A+Transformada-z&&mid=930629CA6F39D9C8F732930629CA6F39D9C8F732&mmscn=mtsc&aps=1&mcid=16C7A6C99DD341359850DA4DF51C31E0&FORM=VRDGAR)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/1RLM_1B6IhvQSJraZiY_BuT64iGhnbK34?usp=sharing)] 🌐 
 
-### **Capítulo 5: Transformada Discreta de Fourier**
+### **Capítulo 5: Transformada Discreta de Fourier** 📊
 A Transformada Discreta de Fourier (DFT) é uma ferramenta essencial no processamento de sinais digitais, permitindo a análise de sinais em termos de suas componentes de frequência. A DFT converte uma sequência finita de valores no domínio do tempo em uma sequência finita de valores no domínio da frequência.
 
 #### **Definição da DFT**
@@ -75,9 +75,9 @@ A DFT é usada para:
 - **Compressão de dados.**
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/17RDxRvNG7IgRYzkEQQYruRYTPVf42hKu?usp=sharing)] 💻 [[Vídeos](#)] 🎥 [[Simulações Complementares](#)] 🌐 
+- [[Notebook/Colab](https://colab.research.google.com/drive/17RDxRvNG7IgRYzkEQQYruRYTPVf42hKu?usp=sharing)] 💻 [[Vídeos](https://www.youtube.com/watch?v=FRUepguQXRc&list=PLfuiSoAvtFWdDiWmUxA1jIsNEbwZCbyvB&index=1)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/1ZuIkl7lhKchl5ZxDqZIQ3mjg0oKc96Z3?usp=sharing)] 🌐 
 
-### **Capítulo 6: Implementação de Filtros Discretos no Tempo**
+### **Capítulo 6: Implementação de Filtros Discretos no Tempo** 🔧
 A implementação de filtros discretos no tempo é uma parte crucial do processamento de sinais digitais. Os filtros podem ser classificados em duas categorias principais: Filtros de Resposta ao Impulso Finito (FIR) e Filtros de Resposta ao Impulso Infinito (IIR).
 
 #### **Filtros FIR**
@@ -87,12 +87,12 @@ Os filtros FIR têm uma resposta ao impulso que é finita, ou seja, eles se torn
 Os filtros IIR têm uma resposta ao impulso que é infinita, ou seja, eles nunca se tornam exatamente zero. Eles podem ser mais eficientes em termos de computação do que os filtros FIR, mas podem ser instáveis e não têm uma resposta de fase linear.
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/1eRfn1JFt_jMCb9VpbWGFbfkQipA7Owgi?usp=sharing)] 💻 [[Vídeos](#)] 🎥 [[Simulações Complementares](#)] 🌐 
+- [[Notebook/Colab](https://colab.research.google.com/drive/1eRfn1JFt_jMCb9VpbWGFbfkQipA7Owgi?usp=sharing)] 💻 [[Vídeos - Parte 1](https://www.youtube.com/watch?v=Y4xpDB73tfY)] 💻 [[Vídeos - Parte 2](https://www.youtube.com/watch?v=1rglbdJQ1Vk)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/1TiqPTsi8BtIn0xzLfjDipXLRCibLQGod?usp=sharing)] 🌐 
 
 ### **Capítulo 7: Projeto de Filtros FIR**
 Os filtros FIR (Finite Impulse Response) são amplamente utilizados no processamento de sinais digitais devido à sua estabilidade e resposta de fase linear. O projeto de filtros FIR envolve a determinação dos coeficientes do filtro que atendem a uma especificação de resposta em frequência desejada.
 
-#### **Métodos de Projeto de Filtros FIR**
+#### **Métodos de Projeto de Filtros FIR** 🔍
 Existem vários métodos para projetar filtros FIR, incluindo:
 - **Método da Janela:** Envolve a multiplicação da resposta ao impulso ideal por uma janela de tempo, como a janela de Hamming ou a janela de Blackman.
 - **Aproximação de Chebyshev:** Minimiza o erro máximo entre a resposta em frequência do filtro projetado e a resposta ideal.
@@ -103,25 +103,25 @@ Existem vários métodos para projetar filtros FIR, incluindo:
 - **Resposta de Fase Linear:** A resposta de fase linear é importante em aplicações onde a distorção de fase deve ser minimizada.
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/1fkzO7i-x5V9fKQln7qUZORM-YB1a2Nh-?usp=sharing)] 💻 [[Vídeos](#)] 🎥 [[Simulações Complementares](#)] 🌐
+- [[Notebook/Colab](https://colab.research.google.com/drive/1fkzO7i-x5V9fKQln7qUZORM-YB1a2Nh-?usp=sharing)] 💻 [[Vídeos](https://www.youtube.com/watch?v=u_tFWolPZY0)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/1da1M_k48HgBBXLbEK2FPVb89cUGCFcsq?usp=sharing)] 🌐
 
 ### **Capítulo 8: Projeto de Filtros IIR**
 Os filtros IIR (Infinite Impulse Response) são amplamente utilizados no processamento de sinais digitais devido à sua eficiência computacional. Eles são projetados para ter uma resposta ao impulso infinita, o que significa que a saída do filtro depende não apenas das entradas atuais e passadas, mas também das saídas passadas.
 
-#### **Métodos de Projeto de Filtros FIR**
+#### **Métodos de Projeto de Filtros FIR** 🧩
 Existem vários métodos para projetar filtros IIR, incluindo:
 - **Transformação Bilinear:** Converte um filtro analógico em um filtro digital, preservando a estabilidade e a resposta em frequência.
 - **Método de Amostragem de Impulso:** Converte a resposta ao impulso de um filtro analógico em um filtro digital.
 - **Método de Aproximação de Chebyshev:** Minimiza o erro máximo entre a resposta em frequência do filtro projetado e a resposta ideal.
 
 #### **Propriedades dos Filtros IIR**
-- **Eficiência Computacional:* Os filtros IIR geralmente requerem menos coeficientes do que os filtros FIR para atingir uma resposta em frequência semelhante.
+- **Eficiência Computacional:** Os filtros IIR geralmente requerem menos coeficientes do que os filtros FIR para atingir uma resposta em frequência semelhante.
 - **Estabilidade:** A estabilidade dos filtros IIR depende da localização dos pólos no plano z. Filtros IIR podem ser instáveis se os pólos estiverem fora do círculo unitário.
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/1OxzesridnigUd0nwvpIN-TmkHkUN5Us5?usp=sharing)] 💻 [[Vídeos](#)] 🎥 [[Simulações Complementares](#)]  🌐
+- [[Notebook/Colab](https://colab.research.google.com/drive/1OxzesridnigUd0nwvpIN-TmkHkUN5Us5?usp=sharing)] 💻 [[Vídeos](https://www.youtube.com/watch?v=T7uHrC4uGDU)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/1un-zFfjwYe1g4tcjKIFHNFlXVIIuqaGE?usp=sharing)]  🌐
 
-### **Capítulo 12: Aplicações em Comunicações**
+### **Capítulo 12: Aplicações em Comunicações** 📞
 O processamento digital de sinais (DSP) desempenha um papel crucial em várias aplicações de comunicações. Este capítulo aborda como as técnicas de DSP são aplicadas em sistemas de comunicação para melhorar a eficiência, a qualidade e a confiabilidade da transmissão de dados.
 
 #### **Modulação Digital**
@@ -139,9 +139,9 @@ Os sistemas de comunicação utilizam técnicas de detecção e correção de er
 A filtragem e a equalização são usadas para mitigar os efeitos de ruído e distorção no canal de comunicação. Os filtros digitais podem ser projetados para remover interferências e melhorar a qualidade do sinal recebido.
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/16ymEKGfB1UXYzaMJ3kv3L0oAO4KHz7es?usp=sharing)] 💻  [[Vídeos](#)] 🎥 [[Simulações Complementares](#)]  🌐
+- [[Notebook/Colab](https://colab.research.google.com/drive/16ymEKGfB1UXYzaMJ3kv3L0oAO4KHz7es?usp=sharing)] 💻  [[Vídeos](https://www.youtube.com/watch?v=srYlywiBrYM&list=PLiyqJyiJiQ_HJr_BsSf1-HxUf52uowzAx)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/12jz_X--YDpDWUTbOrWqcw8S2Xp4xoMnF?usp=sharing)]  🌐
 
-## 🛠️ Ferramentas Utilizadas
+## 🛠️ Ferramentas Utilizadas 🛠️
 
 - **Python**: Bibliotecas principais utilizadas incluem `numpy`, `scipy`, `matplotlib`, e `control`.  🐍
 - **Google Colab**: Para execução interativa dos códigos e compartilhamento.  ☁️
