@@ -51,7 +51,28 @@ A transformada-z é usada para:
 - **Análise de resposta em frequência de sistemas.**
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/1C2Pg7fEl0sfAQV2pucQ3SaOTSwIJtksj?usp=sharing)] 💻 [[Vídeos](https://www.bing.com/videos/riverview/relatedvideo?&q=Capítulo+4%3a+A+Transformada-z&&mid=930629CA6F39D9C8F732930629CA6F39D9C8F732&mmscn=mtsc&aps=1&mcid=16C7A6C99DD341359850DA4DF51C31E0&FORM=VRDGAR)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/1RLM_1B6IhvQSJraZiY_BuT64iGhnbK34?usp=sharing)] 🌐 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1C2Pg7fEl0sfAQV2pucQ3SaOTSwIJtksj?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/google-colab.png" alt="Notebook/Colab"/><br>
+        <b>Notebook/Colab</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.bing.com/videos/riverview/relatedvideo?&q=Capítulo+4%3a+A+Transformada-z&&mid=930629CA6F39D9C8F732930629CA6F39D9C8F732&mmscn=mtsc&aps=1&mcid=16C7A6C99DD341359850DA4DF51C31E0&FORM=VRDGAR">
+        <img src="https://img.icons8.com/color/60/000000/youtube-play.png" alt="Vídeos Explicativos"/><br>
+        <b>Vídeo Explicativo</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1RLM_1B6IhvQSJraZiY_BuT64iGhnbK34?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/simulation.png" alt="Simulações Complementares"/><br>
+        <b>Simulações Complementares</b>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### **Capítulo 5: Transformada Discreta de Fourier** 📊
 A Transformada Discreta de Fourier (DFT) é uma ferramenta essencial no processamento de sinais digitais, permitindo a análise de sinais em termos de suas componentes de frequência. A DFT converte uma sequência finita de valores no domínio do tempo em uma sequência finita de valores no domínio da frequência.
@@ -75,7 +96,28 @@ A DFT é usada para:
 - **Compressão de dados.**
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/17RDxRvNG7IgRYzkEQQYruRYTPVf42hKu?usp=sharing)] 💻 [[Vídeos](https://www.youtube.com/watch?v=FRUepguQXRc&list=PLfuiSoAvtFWdDiWmUxA1jIsNEbwZCbyvB&index=1)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/1ZuIkl7lhKchl5ZxDqZIQ3mjg0oKc96Z3?usp=sharing)] 🌐 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/17RDxRvNG7IgRYzkEQQYruRYTPVf42hKu?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/google-colab.png" alt="Notebook/Colab"/><br>
+        <b>Notebook/Colab</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=FRUepguQXRc&list=PLfuiSoAvtFWdDiWmUxA1jIsNEbwZCbyvB&index=1">
+        <img src="https://img.icons8.com/color/60/000000/youtube-play.png" alt="Vídeos Explicativos"/><br>
+        <b>Vídeo Explicativo</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1ZuIkl7lhKchl5ZxDqZIQ3mjg0oKc96Z3?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/simulation.png" alt="Simulações Complementares"/><br>
+        <b>Simulações Complementares</b>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### **Capítulo 6: Implementação de Filtros Discretos no Tempo** 🔧
 A implementação de filtros discretos no tempo é uma parte crucial do processamento de sinais digitais. Os filtros podem ser classificados em duas categorias principais: Filtros de Resposta ao Impulso Finito (FIR) e Filtros de Resposta ao Impulso Infinito (IIR).
@@ -87,7 +129,34 @@ Os filtros FIR têm uma resposta ao impulso que é finita, ou seja, eles se torn
 Os filtros IIR têm uma resposta ao impulso que é infinita, ou seja, eles nunca se tornam exatamente zero. Eles podem ser mais eficientes em termos de computação do que os filtros FIR, mas podem ser instáveis e não têm uma resposta de fase linear.
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/1eRfn1JFt_jMCb9VpbWGFbfkQipA7Owgi?usp=sharing)] 💻 [[Vídeos - Parte 1](https://www.youtube.com/watch?v=Y4xpDB73tfY)] 💻 [[Vídeos - Parte 2](https://www.youtube.com/watch?v=1rglbdJQ1Vk)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/1TiqPTsi8BtIn0xzLfjDipXLRCibLQGod?usp=sharing)] 🌐 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1eRfn1JFt_jMCb9VpbWGFbfkQipA7Owgi?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/google-colab.png" alt="Notebook/Colab"/><br>
+        <b>Notebook/Colab</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=Y4xpDB73tfY">
+        <img src="https://img.icons8.com/color/60/000000/youtube-play.png" alt="Vídeos - Parte 1"/><br>
+        <b>Vídeos - Parte 1</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=1rglbdJQ1Vk">
+        <img src="https://img.icons8.com/color/60/000000/youtube-play.png" alt="Vídeos - Parte 2"/><br>
+        <b>Vídeos - Parte 2</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1TiqPTsi8BtIn0xzLfjDipXLRCibLQGod?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/simulation.png" alt="Simulações Complementares"/><br>
+        <b>Simulações Complementares</b>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### **Capítulo 7: Projeto de Filtros FIR**
 Os filtros FIR (Finite Impulse Response) são amplamente utilizados no processamento de sinais digitais devido à sua estabilidade e resposta de fase linear. O projeto de filtros FIR envolve a determinação dos coeficientes do filtro que atendem a uma especificação de resposta em frequência desejada.
@@ -103,7 +172,28 @@ Existem vários métodos para projetar filtros FIR, incluindo:
 - **Resposta de Fase Linear:** A resposta de fase linear é importante em aplicações onde a distorção de fase deve ser minimizada.
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/1fkzO7i-x5V9fKQln7qUZORM-YB1a2Nh-?usp=sharing)] 💻 [[Vídeos](https://www.youtube.com/watch?v=u_tFWolPZY0)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/1da1M_k48HgBBXLbEK2FPVb89cUGCFcsq?usp=sharing)] 🌐
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1fkzO7i-x5V9fKQln7qUZORM-YB1a2Nh-?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/google-colab.png" alt="Notebook/Colab"/><br>
+        <b>Notebook/Colab</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=u_tFWolPZY0">
+        <img src="https://img.icons8.com/color/60/000000/youtube-play.png" alt="Vídeos"/><br>
+        <b>Vídeo Explicativo</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1da1M_k48HgBBXLbEK2FPVb89cUGCFcsq?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/simulation.png" alt="Simulações Complementares"/><br>
+        <b>Simulações Complementares</b>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### **Capítulo 8: Projeto de Filtros IIR**
 Os filtros IIR (Infinite Impulse Response) são amplamente utilizados no processamento de sinais digitais devido à sua eficiência computacional. Eles são projetados para ter uma resposta ao impulso infinita, o que significa que a saída do filtro depende não apenas das entradas atuais e passadas, mas também das saídas passadas.
@@ -119,7 +209,28 @@ Existem vários métodos para projetar filtros IIR, incluindo:
 - **Estabilidade:** A estabilidade dos filtros IIR depende da localização dos pólos no plano z. Filtros IIR podem ser instáveis se os pólos estiverem fora do círculo unitário.
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/1OxzesridnigUd0nwvpIN-TmkHkUN5Us5?usp=sharing)] 💻 [[Vídeos](https://www.youtube.com/watch?v=T7uHrC4uGDU)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/1un-zFfjwYe1g4tcjKIFHNFlXVIIuqaGE?usp=sharing)]  🌐
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1OxzesridnigUd0nwvpIN-TmkHkUN5Us5?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/google-colab.png" alt="Notebook/Colab"/><br>
+        <b>Notebook/Colab</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=T7uHrC4uGDU">
+        <img src="https://img.icons8.com/color/60/000000/youtube-play.png" alt="Vídeos"/><br>
+        <b>Vídeo Explicativo</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/1un-zFfjwYe1g4tcjKIFHNFlXVIIuqaGE?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/simulation.png" alt="Simulações Complementares"/><br>
+        <b>Simulações Complementares</b>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### **Capítulo 12: Aplicações em Comunicações** 📞
 O processamento digital de sinais (DSP) desempenha um papel crucial em várias aplicações de comunicações. Este capítulo aborda como as técnicas de DSP são aplicadas em sistemas de comunicação para melhorar a eficiência, a qualidade e a confiabilidade da transmissão de dados.
@@ -139,7 +250,28 @@ Os sistemas de comunicação utilizam técnicas de detecção e correção de er
 A filtragem e a equalização são usadas para mitigar os efeitos de ruído e distorção no canal de comunicação. Os filtros digitais podem ser projetados para remover interferências e melhorar a qualidade do sinal recebido.
 
 #### **Simulações**
-- [[Notebook/Colab](https://colab.research.google.com/drive/16ymEKGfB1UXYzaMJ3kv3L0oAO4KHz7es?usp=sharing)] 💻  [[Vídeos](https://www.youtube.com/watch?v=srYlywiBrYM&list=PLiyqJyiJiQ_HJr_BsSf1-HxUf52uowzAx)] 🎥 [[Simulações Complementares](https://colab.research.google.com/drive/12jz_X--YDpDWUTbOrWqcw8S2Xp4xoMnF?usp=sharing)]  🌐
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/16ymEKGfB1UXYzaMJ3kv3L0oAO4KHz7es?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/google-colab.png" alt="Notebook/Colab"/><br>
+        <b>Notebook/Colab</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=srYlywiBrYM&list=PLiyqJyiJiQ_HJr_BsSf1-HxUf52uowzAx">
+        <img src="https://img.icons8.com/color/60/000000/youtube-play.png" alt="Vídeos"/><br>
+        <b>Vídeo Explicativo</b>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://colab.research.google.com/drive/12jz_X--YDpDWUTbOrWqcw8S2Xp4xoMnF?usp=sharing">
+        <img src="https://img.icons8.com/color/60/000000/simulation.png" alt="Simulações Complementares"/><br>
+        <b>Simulações Complementares</b>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## 🛠️ Ferramentas Utilizadas 🛠️
 
@@ -150,6 +282,15 @@ A filtragem e a equalização são usadas para mitigar os efeitos de ruído e di
 
 ---
 
+<h2>⚙️ Desenvolvedores ⚙️</h2>
+
+Este projeto foi desenvolvido por:
+
+👨‍💻 **Joseffer Maxwel Oliveira das Mercês**  
+🔗 [GitHub de Joseffer](https://github.com/joseffermax)  
+
+👨‍💻 **Adonias Alves Cardoso Junior**  
+🔗 [GitHub de Adonias](https://github.com/adonias33)
 <h2>🤝 Contribuição 🤝</h2>
 
 Contribuições são bem-vindas! Se você tiver sugestões, correções de bugs ou novas funcionalidades, fique à vontade para abrir uma issue ou enviar um pull request.
