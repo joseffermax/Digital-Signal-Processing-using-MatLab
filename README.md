@@ -20,7 +20,7 @@ Cada capítulo abordado está documentado com:
 - **Resumo teórico**  📑
 - **Simulações computacionais** (disponíveis no Google Colab)  💻
 - **Links para vídeos explicativos**  🎥
-- **Simulações complementares disponíveis na web**  🌐
+- **Simulações complementares**  🌐
 
 ---
 
